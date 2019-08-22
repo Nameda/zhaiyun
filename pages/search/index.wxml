@@ -1,0 +1,33 @@
+<!-- 搜索页面 -->
+<view class="container" >
+    <!-- 搜索框 -->
+    <view class="search-box">
+        <input class="search-input" type="text" placeholder="搜索从这开始" placeholder-class="search-place"></input>
+        <image class="search-icon" src="../../static/image/home/search-icon.png"></image>
+    </view>
+    <!-- 分类查看 -->
+    <view class="items-wraper">
+        <view class="title-box">
+            <view class="title">按分类查看</view>
+        </view>
+        <view class="items-box">
+            <view class="item" wx:for="{{categoryList}}" wx:key="{{index}}">{{item}}</view>
+        </view>
+    </view>
+    
+    <!-- 搜索历史 -->
+    <view class="items-wraper">
+        <view class="title-box">
+            <view class="title">搜索历史</view>
+            <view class="clear-box">
+                <image src="../../static/image/home/delete-icon.png"  />
+                <text>全部删除</text>
+            </view>
+              
+        </view>
+        <view class="items-box">
+            <view class="item" wx:for="{{hostoryList}}" wx:key="{{index}}">{{item}}</view>
+        </view>
+    </view>
+</view>
+  

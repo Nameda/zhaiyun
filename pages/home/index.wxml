@@ -19,15 +19,15 @@
       <image class="notice-icon" src="../../static/image/home/notice.png"></image>
       <text class="txt">恭喜李先生成为钻石会员</text>
     </view>
-    <view class="search-box">
-      <input class="search-input" type="text" placeholder="搜索从这开始" placeholder-class="search-place"></input>
+    <navigator class="search-box" url="/pages/search/index">
+      <input class="search-input" type="text" disabled='true' placeholder="搜索从这开始" placeholder-class="search-place"></input>
       <image class="search-icon" src="../../static/image/home/search-icon.png"></image>
-    </view>
+    </navigator>
   </view>
   <!-- 列表 -->
   <view class="list-wraper">
     <scroll-view class="list-tabs" scroll-x="true">
-      <view class="{{['tab',currentTab==index?'current-tab':'']}}" wx:for="{{listTab}}" bindtap="changeType" data-index="{{index}}">{{item}}</view>
+      <view class="{{['tab',currentTab==index?'current-tab':'']}}" wx:for="{{listTab}}" wx:key="{{index}}" bindtap="changeType" data-index="{{index}}">{{item}}</view>
     </scroll-view>
     <view class="list-box">
       <view class="list" wx:for="{{lists}}" wx:key="{{item.id}}">
