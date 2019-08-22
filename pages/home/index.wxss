@@ -1,4 +1,8 @@
 /**home.wxss**/
+page{
+  background: #f1f1f1;
+}
+/* 轮播图 */
 .banner-box{
   width:100%;
   height: 400rpx;
@@ -6,4 +10,129 @@
 .banner-box image{
   width: 100%;
   height:100%;
+}
+/* 窄云简介 会员权益 */
+.main-tabs{
+  display: flex;
+  justify-content: space-between;
+  height: 130rpx;
+  line-height: 130rpx;
+  width: 100%;
+  font-size: 28rpx;
+  background: #fff;
+}
+.main-tabs .main-tab{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+/* 搜索框 */
+.search-wraper{
+  margin-top: 14rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  color: #9B9B9B;
+  background: #fff;
+}
+.search-wraper .notice{
+  text-align: center;
+  font-size: 14rpx;
+  padding-top: 14rpx;
+  line-height: 30rpx;
+}
+.search-wraper .notice .notice-icon{
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 18rpx;
+  vertical-align:middle;  
+}
+.search-wraper .search-box{
+  box-sizing: border-box;
+  margin:0 auto;
+  margin-top: 13rpx;
+  width: 690rpx;
+  height: 60rpx;
+  padding: 0 16rpx;
+  line-height: 60rpx;
+  border:1rpx solid #A0A0A0;
+  border-radius:10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-wraper .search-box .search-input{
+  width: 630rpx;
+  font-size: 16rpx;
+  color: #333;
+}
+.search-wraper .search-box .search-place{
+  color: #c1c1c1;
+}
+.search-wraper .search-box .search-icon{
+  width: 28rpx;
+  height: 28rpx;
+}
+/* 列表 tab 选项*/
+.list-wraper{
+  margin-top: 14rpx;
+  background: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding:0 30rpx 30rpx;
+}
+.list-wraper .list-tabs{
+  white-space: nowrap;
+  display: flex;
+  border-bottom:1rpx solid #C5C5C5;
+  font-size: 24rpx;
+  color: #000;
+  padding: 9rpx 0;
+}
+.list-wraper .list-tabs .tab{
+  display: inline-block;
+  padding:5rpx 6rpx;
+  margin-right: 16rpx;
+}
+.list-wraper .list-tabs .current-tab{
+  background: #000;
+  color: #fff;
+  border-radius: 4rpx;
+}
+/* 列表样式 */
+.list-box{}
+.list-box .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16rpx;
+  height: 146rpx;
+  border-bottom: 1rpx solid #C5C5C5;
+}
+.list-box .list:last-of-type{
+  border:0;
+}
+.list-box .list .info-box{
+  display: flex;
+}
+.list-box .list .info-box .pic{
+  width:90rpx;
+  height:90rpx;
+  border-radius:45rpx;
+  margin-right: 25rpx;
+  flex-shrink: 0;
+}
+.list-box .list .info-box .right-info view{
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 6rpx;
+}
+.list-box .list .info-box .right-info .name{
+  font-size: 20rpx;
+}
+.list-box .list .detail-arrow .arrow-icon{
+  width: 20rpx;
+  height: 20rpx;
 }

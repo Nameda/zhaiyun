@@ -8,5 +8,41 @@
       </swiper-item>
     </block>
   </swiper>
-  
+  <!-- 窄云简介 会员权益-->
+  <view class="main-tabs">
+    <view class="main-tab">窄云简介</view>
+    <view class="main-tab">会员权益</view>
+  </view>
+  <!-- 搜索框 -->
+  <view class="search-wraper">
+    <view class="notice">
+      <image class="notice-icon" src="../../static/image/home/notice.png"></image>
+      <text class="txt">恭喜李先生成为钻石会员</text>
+    </view>
+    <view class="search-box">
+      <input class="search-input" type="text" placeholder="搜索从这开始" placeholder-class="search-place"></input>
+      <image class="search-icon" src="../../static/image/home/search-icon.png"></image>
+    </view>
+  </view>
+  <!-- 列表 -->
+  <view class="list-wraper">
+    <scroll-view class="list-tabs" scroll-x="true">
+      <view class="{{['tab',currentTab==index?'current-tab':'']}}" wx:for="{{listTab}}" bindtap="changeType" data-index="{{index}}">{{item}}</view>
+    </scroll-view>
+    <view class="list-box">
+      <view class="list" wx:for="{{lists}}" wx:key="{{item.id}}">
+        <view class="info-box">
+          <image src="{{item.pic}}" class="pic"></image>
+          <view class="right-info">
+            <view class="name">{{item.name}}</view>
+            <view class="industry">行业：{{item.industry}}</view>
+            <view class="resources">拥有资源：{{item.resources}}</view>
+          </view>
+        </view>
+        <view class="detail-arrow">
+          <image class="arrow-icon" src="../../static/image/home/arrow-icon.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
