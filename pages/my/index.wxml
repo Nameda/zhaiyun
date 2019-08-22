@@ -1,11 +1,19 @@
-<!--index.wxml-->
+<!--个人中心-->
 <view class="container">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+    <view class="info">
+      <view class="user-pic">
+        <image src="../../static/image/my/mine.png" class="pic"></image>
+      </view>
+      <view class="right-info" >
+        <view class="name">Mr.LC（廖晨）</view>
+        <view class="bind-phone">绑定手机</view>
+      </view>
+    </view>
+    <view class="edit-entry">
+      <text>编辑资料</text>
+      <image src=""></image>
+    </view>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
