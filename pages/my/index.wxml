@@ -1,5 +1,6 @@
 <!--个人中心-->
 <view class="container">
+  <!-- 个人信息 -->
   <view class="userinfo">
     <view class="info">
       <view class="user-pic">
@@ -12,10 +13,47 @@
     </view>
     <view class="edit-entry">
       <text>编辑资料</text>
-      <image src=""></image>
+      <image src="../../static/image/my/edit_arrow.png"></image>
     </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <!-- 钱包 会员 -->
+  <view class="money-wraper">
+    <view class="money-box">
+      <view class="money">
+        <text>￥</text>
+        <text>0.00</text>
+      </view>
+      <view class="wallet-box">
+        <text>钱包</text>
+        <image src="../../static/image/my/black_arrow.png"></image>
+      </view>
+    </view>
+    <view class="btns-box">
+      <view class="btn">开通会员</view>
+      <view class="btn">分享赚佣金</view>
+    </view>
+  </view>
+  <!-- 我的收藏 -->
+  <view class="collect-wraper">
+    <view class="collect-header">
+        <view>我的收藏</view>
+        <image src="../../static/image/my/black_arrow.png"></image>
+    </view>
+    <view class="collect-items">
+      <view class="collect-item" wx:for="123">
+        <view class="item-pic"><image src="../../static/image/home/pic.png"></image></view>
+        <view class="item-info">
+          <view class="name">魏程阳</view>
+          <view>行业：汽车</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 功能项 -->
+  <view class="fun-items">
+    <view class="fun-item" wx:for="{{funList}}" wx:key="item.url">
+      <view>{{item.value}}</view>
+      <image src="../../static/image/my/black_arrow.png"></image>
+    </view>
   </view>
 </view>

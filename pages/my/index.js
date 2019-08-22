@@ -4,10 +4,24 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    funList:[
+      {
+        value:'浏览历史',
+        url:'pages/home/index'
+      },
+      {
+        value:'联系我们',
+        url:'pages/home/index'
+      },
+      {
+        value:'版本预告',
+        url:'pages/home/index'
+      },
+      {
+        value:'帮助与反馈',
+        url:'pages/home/index'
+      },
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
