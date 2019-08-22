@@ -91,7 +91,7 @@ page{
 }
 .list-wraper .list-tabs .tab{
   display: inline-block;
-  padding:5rpx 6rpx;
+  padding:2rpx 6rpx;
   margin-right: 16rpx;
 }
 .list-wraper .list-tabs .current-tab{
@@ -127,7 +127,7 @@ page{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-bottom: 6rpx;
+  padding-bottom: 13rpx;
 }
 .list-box .list .info-box .right-info .name{
   font-size: 20rpx;
