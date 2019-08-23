@@ -72,6 +72,59 @@ page{
 .wechat-wraper{
     height: 180rpx;
     width: 100%;
+    padding:0 30rpx;
+    box-sizing: border-box;
     background: #fff;
     margin-top: 20rpx;
+}
+.wechat-wraper .wechat-header{
+    border-bottom: 1rpx solid #E0E0E0;
+    height: 68rpx;
+    line-height: 68rpx;
+    font-size: 24rpx;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 7rpx;
+}
+.wechat-wraper .wechat-header image{
+    width: 42rpx;
+    height: 42rpx;
+    margin-right: 14rpx;
+}
+.wechat-wraper .pay-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 111rpx;
+}
+.wechat-wraper .pay-box .money-box{
+    font-size: 24rpx;
+}
+.wechat-wraper .pay-box .money-box text{
+    color: #FF0014
+}
+.wechat-wraper .pay-box .pay-btn{
+    width: 150rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    border-radius: 10rpx;
+    text-align: center;
+    background: #FF0014;
+    color: #fff;
+    font-size: 28rpx;
+}
+/* 协议 帮助反馈 */
+.bot-tips-wraper{
+    text-align: center;
+    padding-top: 85rpx;
+    font-size: 18rpx;
+}
+.bot-tips-wraper .agreement{
+    color: #06B4FD;
+    padding-bottom: 19rpx;
+}
+.bot-tips-wraper .help{
+    color: #999999;
+    padding-bottom: 30rpx;
 }

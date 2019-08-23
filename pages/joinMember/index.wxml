@@ -1,7 +1,7 @@
 <!-- 加入会员 -->
 <view class="container">
     <view class="banner-box">
-        <image src="{{banner}}"></image>
+        <image src="../../static/image/member/member-banner.png"></image>
     </view>
     <!-- 会员等级 -->
     <view class="member-type-wraper">
@@ -42,6 +42,18 @@
     </view>
     <!-- 微信支付 -->
     <view class="wechat-wraper">
-
+        <view class="wechat-header">
+            <image src="../../static/image/member/wechat-icon.png"></image>
+            <text>微信支付</text>
+        </view>
+        <view class="pay-box">
+            <view class="money-box">应付金额：<text>599</text>元</view>
+            <view class="pay-btn">确认支付</view>
+        </view>
+    </view>
+    <!-- 协议 帮助反馈 -->
+    <view class="bot-tips-wraper">
+        <view class="agreement">《窄云上VIP服务协议》</view>
+        <view class="help">帮助和反馈</view>
     </view>
 </view>

@@ -29,7 +29,8 @@
       </view>
     </view>
     <view class="btns-box">
-      <view class="btn">开通会员</view>
+      <navigator url="/pages/joinMember/index" class="btn">开通会员</navigator>
+      <!-- <view class="btn">开通会员</view> -->
       <view class="btn">分享赚佣金</view>
     </view>
   </view>
@@ -40,7 +41,7 @@
         <image src="../../static/image/my/black_arrow.png"></image>
     </view>
     <view class="collect-items">
-      <view class="collect-item" wx:for="123">
+      <view class="collect-item" wx:for="123" wx:key="{{index}}">
         <view class="item-pic"><image src="../../static/image/home/pic.png"></image></view>
         <view class="item-info">
           <view class="name">魏程阳</view>
