@@ -8,6 +8,11 @@ Page({
       "http://img.zcool.cn/community/01281b5c1c7967a80121df904b0c3e.png",
       "http://t-1.tuzhan.com/03c215caab18/c-2/l/2013/04/26/16/c0fd074931cf4be6990fab3803cdac7c.jpg"
     ],
+    niticeList:[
+      '恭喜李先生成为钻石会员',
+      '恭喜恭喜恭喜恭喜恭喜',
+      '会员会员会员会员会员'
+    ],
     listTab:['推荐','餐饮','房地产','酒店','服装','汽车','美容','游戏'],
     currentTab:0,
     lists:[

@@ -17,7 +17,13 @@
   <view class="search-wraper">
     <view class="notice">
       <image class="notice-icon" src="../../static/image/home/notice.png"></image>
-      <text class="txt">恭喜李先生成为钻石会员</text>
+      <swiper class="notice-box" indicator-dots="false" autoplay="true"  circular="true" interval="3500" duration="500"  >
+          <block wx:for="{{niticeList}}" wx:key="{{index}}">
+            <swiper-item>
+              <text class="txt">恭喜李先生成为钻石会员</text>
+            </swiper-item>
+          </block>
+        </swiper>
     </view>
     <navigator class="search-box" url="/pages/search/index">
       <input class="search-input" type="text" disabled='true' placeholder="搜索从这开始" placeholder-class="search-place"></input>

@@ -1,0 +1,12 @@
+/* 资料页 */
+page{
+  background: #f1f1f1;
+}
+
+/* 数据 form */
+.content{
+    background: #fff;
+    padding: 0 30rpx 22rpx;
+    width: 100%;
+    box-sizing: border-box;
+}

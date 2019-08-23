@@ -40,12 +40,23 @@ page{
   font-size: 14rpx;
   padding-top: 14rpx;
   line-height: 30rpx;
+  height: 30rpx;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
 }
 .search-wraper .notice .notice-icon{
   width: 20rpx;
   height: 20rpx;
   margin-right: 18rpx;
   vertical-align:middle;  
+}
+.search-wraper .notice .notice-box{
+  width: 300rpx;
+  height: 30rpx;
+  overflow: hidden;
+  text-align: left;
 }
 .search-wraper .search-box{
   box-sizing: border-box;
