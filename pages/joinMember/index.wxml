@@ -1,0 +1,47 @@
+<!-- 加入会员 -->
+<view class="container">
+    <view class="banner-box">
+        <image src="{{banner}}"></image>
+    </view>
+    <!-- 会员等级 -->
+    <view class="member-type-wraper">
+        <view class="member-type type1">
+            <view class="member-type-header">
+                <view class="header-left">
+                    <image src="../../static/image/member/member-ordinary.png"></image>
+                    <text>普通会员</text>
+                </view>
+                <view class="header-right">
+                    <text>￥599/年</text>
+                </view>
+            </view>
+            <view class="member-tips">
+                <view class="tip"><view class="ord">1：</view><view class="tip-text">获取全国优质项目的信息</view></view>
+                <view class="tip"><view class="ord">2：</view><view class="tip-text">通过窄云会获取品牌宣传及资本对接的机会</view></view>
+                <view class="tip"><view class="ord">3：</view><view class="tip-text">通过窄云会整合本地资源推动自有业务的发展</view></view>
+                <view class="tip"><view class="ord">4：</view><view class="tip-text">通过窄云会申请连锁品牌孵化推动全国市场覆盖</view></view>
+            </view>
+        </view>
+        <view class="member-type type2">
+            <view class="member-type-header">
+                <view class="header-left">
+                    <image src="../../static/image/member/member-gold.png"></image>
+                    <text>高级会员</text>
+                </view>
+                <view class="header-right">
+                    <text>￥1599/年</text>
+                </view>
+            </view>
+            <view class="member-tips">
+                <view class="tip"><view class="ord">1：</view><view class="tip-text">获取全国优质项目的信息</view></view>
+                <view class="tip"><view class="ord">2：</view><view class="tip-text">通过窄云会获取品牌宣传及资本对接的机会</view></view>
+                <view class="tip"><view class="ord">3：</view><view class="tip-text">享受连锁加盟免费咨询及诊断服务绕开加盟骗局</view></view>
+                <view class="tip"><view class="ord">4：</view><view class="tip-text">参与本地会员多品牌联动的区域性营销活动，降低营销成本，提高项目利润</view></view>
+            </view>
+        </view>
+    </view>
+    <!-- 微信支付 -->
+    <view class="wechat-wraper">
+
+    </view>
+</view>

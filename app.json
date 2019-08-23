@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/home/index",
+    "pages/joinMember/index",
     "pages/search/index",
     "pages/my/index"
   ],

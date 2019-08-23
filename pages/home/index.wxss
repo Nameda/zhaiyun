@@ -114,6 +114,7 @@ page{
 }
 .list-box .list .info-box{
   display: flex;
+  align-items: center;
 }
 .list-box .list .info-box .pic{
   width:90rpx;
@@ -128,6 +129,9 @@ page{
   text-overflow: ellipsis;
   white-space: nowrap;
   padding-bottom: 13rpx;
+}
+.list-box .list .info-box .right-info .resources{
+  padding: 0;
 }
 .list-box .list .info-box .right-info .name{
   font-size: 20rpx;
