@@ -1,0 +1,24 @@
+<!-- 提现记录 -->
+<view class="container">
+    <view class="mounth-record" wx:for="{{recordList}}" wx:for-item="item" wx:for-index="index" wx:key="{{index}}">
+        <view class="mounth">
+            {{item.mounth}}
+        </view>
+        <view class="list-box">
+            <view class="record-list" wx:for="{{item.records}}" wx:for-item="list" wx:for-index="i" wx:key="{{i}}">
+                <view class="time">
+                    <view>{{list.week}}</view>
+                    <view>{{list.date}}</view>
+                </view>
+                <view class="">
+                    {{list.info}}
+                </view>
+                <view class="record-money-box">
+                    <view class="record-money">￥{{list.money}}</view>
+                    <view class="record-status">{{list.status}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+  

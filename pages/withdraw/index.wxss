@@ -1,0 +1,81 @@
+/* 提现页面 */
+page{
+    background: #f1f1f1;
+}
+/* 余额 */
+.balance-box{
+    width: 100%;
+    height: 280rpx;
+    color: #fff;
+    background: #000;
+}
+.balance-box .withdraw-record{
+    font-size: 24rpx;
+    padding:19rpx 30rpx;
+    text-align: right;
+}
+.balance-box .balance-txt{
+    text-align: center;
+    font-size: 30rpx;
+}
+.balance-box .balance{
+    font-size: 70rpx;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30rpx;
+}
+
+/* 提现框 */
+.withdraw-box{
+    background: #fff;
+    margin-top: 20rpx;
+    width: 100%;
+}
+.withdraw-box .widthdraw-input-box{
+    width: 540rpx;
+    border-bottom: 2rpx solid #E0E0E0;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 118rpx;
+    font-size: 24rpx;
+}
+.withdraw-box .widthdraw-input-box .widthdraw-input{
+    display: flex;
+}
+.withdraw-box .widthdraw-input-box .money-icon{
+    font-size: 30rpx;
+}
+.withdraw-box .widthdraw-btn{
+    width: 300rpx;
+    height: 80rpx;
+    background: #999;
+    border-radius: 6rpx;
+    color: #fff;
+    font-size: 30rpx;
+    line-height: 80rpx;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 98rpx;
+    margin-bottom: 150rpx;
+}
+.withdraw-box .on{
+    background: #000;
+}
+
+/* 底部内容 */
+.bot-box{
+    text-align: center;
+    position: absolute;
+    bottom: 24rpx;
+}
+.bot-box .question{
+    font-size: 20rpx;
+    color: #333;
+    padding-bottom: 8rpx;
+}
+.bot-box .provide{
+    font-size: 16rpx;
+    color: #999;
+}

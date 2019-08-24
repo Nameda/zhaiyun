@@ -1,10 +1,12 @@
 {
   "pages":[
     "pages/home/index",
+    "pages/my/index",
+    "pages/withdrawRecord/index",
+    "pages/withdraw/index",    
     "pages/personalData/index",
     "pages/joinMember/index",
-    "pages/search/index",
-    "pages/my/index"
+    "pages/search/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

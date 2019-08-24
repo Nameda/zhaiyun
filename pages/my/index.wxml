@@ -18,10 +18,10 @@
   </view>
   <!-- 钱包 会员 -->
   <view class="money-wraper">
-    <view class="money-box">
+    <view class="money-box" bindtap="goWallet">
       <view class="money">
         <text>￥</text>
-        <text>0.00</text>
+        <text>99.88</text>
       </view>
       <view class="wallet-box">
         <text>钱包</text>

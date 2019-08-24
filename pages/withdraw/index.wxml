@@ -1,0 +1,30 @@
+<!-- 提现页面 -->
+<view class="container">
+    <!-- 余额 -->
+    <view class="balance-box">
+        <navigator class="withdraw-record" url="/pages/withdrawRecord/index" >
+            提现记录
+        </navigator>
+        <view class="balance-txt">余额（元）</view>
+        <view class="balance">{{balance}}</view>
+    </view>
+    <!-- 提现 -->
+    <view class="withdraw-box">
+        <view class="widthdraw-input-box">
+            <view class="widthdraw-input">
+                <text class="money-icon">￥</text>
+                <input type="number" placeholder="请输入提现金额" value="{{withdrawMoney}}" bindinput ="getMoney" />
+            </view>
+            <text class="widthdraw-all" bindtap="widthdrawAll" >全部提现</text>
+        </view>
+        <view class="widthdraw-btn {{withdrawMoney?'on':''}}">
+            提现
+        </view>
+    </view>
+    <!-- 底部内容 -->
+    <view class="bot-box">
+        <view class="question">常见问题</view>
+        <view class="provide">本财务由财付通提供</view>
+    </view>
+</view>
+  
