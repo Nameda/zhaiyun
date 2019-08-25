@@ -1,0 +1,138 @@
+/* 编辑资料页 */
+page{
+  background: #f1f1f1;
+}
+.container-fixed{
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+/* 数据 form */
+.content{
+    margin-top: 20rpx;
+    margin-bottom: 55rpx;
+    background: #fff;
+    padding: 0 30rpx 22rpx;
+    width: 100%;
+    box-sizing: border-box;
+}
+.content .items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24rpx;
+    border-bottom: 1rpx solid #E0E0E0;
+    padding: 25rpx 0;
+}
+.content .items .item-title{
+    width: 124rpx;
+    flex-shrink: 0;
+    text-align: right;
+    margin-right: 15rpx;
+}
+.content .items .item-value{
+    width: 480rpx;
+    display: flex;
+    align-items: center;
+}
+.content .items .item-value .avatar{
+    width: 72rpx;
+    height: 72rpx;
+    border-radius: 50%;
+}
+.item-value input{
+    border:1rpx solid #A0A0A0;
+    border-radius: 6rpx;
+    padding: 0 10rpx;
+}
+.item-value textarea{
+    border:1rpx solid #A0A0A0;
+    border-radius: 6rpx;
+    padding:10rpx;
+    height: 130rpx;
+    position: relative;
+    z-index: 0;
+}
+.name .item-value input{
+    width: 200rpx;
+}
+.phone .item-value input{
+    width: 320rpx;
+    margin-right: 15rpx;
+}
+.address .item-value input{
+    width: 466rpx;
+}
+.company .item-value input{
+    width: 466rpx;
+}
+.industry .item-value image{
+    width: 22rpx;
+    height: 22rpx;
+    position: relative;
+    right: 40rpx;
+}
+.content .items .item-value .radio-group{
+    display: flex;
+}
+.content .items .item-value .radio-group .radio{
+    padding-right: 40rpx;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.content .items .item-value .radio-group .radio image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 12rpx;
+}
+
+/* 保存按钮 */
+.btn-box{
+    padding-bottom: 21rpx;
+    margin:0 auto; 
+}
+.btn-box .save-btn{
+    width: 168rpx;
+    height: 68rpx;
+    background: #999;
+    color: #E0E0E0;
+    font-size: 30rpx;
+    border-radius: 6rpx;
+    text-align: center;
+    line-height: 68rpx;
+}
+.btn-box .on{
+    background: #000;
+    color: #fff;
+}
+
+/* 行业弹窗 */
+.industry-dialog-box{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.2);
+}
+.industry-dialog-box .industry-dialog{
+    background: #fff;
+    border-radius: 6rpx;
+    border:1rpx solid #A0A0A0;
+    position: absolute;
+    z-index: 8;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 18rpx;
+    color: #000;
+    width: 466rpx;
+    padding:0 27px 24rpx 21rpx; 
+    box-sizing: border-box;
+}
+.industry-dialog-box .industry-dialog .list{
+    border-bottom:1rpx solid #C5C5C5;
+    height: 69rpx;
+    line-height: 69rpx;
+}

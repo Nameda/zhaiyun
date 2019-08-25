@@ -1,10 +1,11 @@
 {
   "pages":[
     "pages/home/index",
+    "pages/personalData/index",
     "pages/my/index",
     "pages/withdrawRecord/index",
     "pages/withdraw/index",    
-    "pages/personalData/index",
+    "pages/editPersonalData/index",
     "pages/joinMember/index",
     "pages/search/index"
   ],

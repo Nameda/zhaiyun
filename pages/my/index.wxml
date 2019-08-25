@@ -3,18 +3,18 @@
   <!-- 个人信息 -->
   <view class="userinfo">
     <view class="info">
-      <view class="user-pic">
+      <navigator class="user-pic" url="/pages/personalData/index">
         <image src="../../static/image/my/mine.png" class="pic"></image>
-      </view>
+      </navigator>
       <view class="right-info" >
         <view class="name">Mr.LC（廖晨）</view>
         <view class="bind-phone">绑定手机</view>
       </view>
     </view>
-    <view class="edit-entry">
+    <navigator class="edit-entry" url="/pages/editPersonalData/index" >
       <text>编辑资料</text>
       <image src="../../static/image/my/edit_arrow.png"></image>
-    </view>
+    </navigator>
   </view>
   <!-- 钱包 会员 -->
   <view class="money-wraper">

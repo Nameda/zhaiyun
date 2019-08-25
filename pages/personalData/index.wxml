@@ -1,4 +1,4 @@
-<!-- 编辑资料 -->
+<!-- 个人页面 -->
 <view class="container {{isShowDialog?'container-fixed':''}}">
     <view class="content">
         <view class="items">
@@ -10,93 +10,58 @@
         <view class="items name">
             <view class="item-title">姓名：</view>
             <view class="item-value">
-                <input type="text" />
+                廖晨
             </view>
         </view>
         <view class="items sex">
             <view class="item-title">性别：</view>
             <view class="item-value">
-                <view class="radio-group" bindchange="radioChange">
-                    <label class="radio" bindtap="changeSex" data-type="0">
-                        <image src="../../static/image/personal/choosed-icon.png" wx:if="{{sex=='0'}}"></image>
-                        <image src="../../static/image/personal/choose-icon.png" wx:else></image>
-                        <text>男</text>
-                    </label>
-                    <label class="radio" bindtap="changeSex" data-type="1" >
-                        <image src="../../static/image/personal/choosed-icon.png" wx:if="{{sex=='1'}}"></image>
-                        <image src="../../static/image/personal/choose-icon.png" wx:else></image>
-                        <text>女</text>
-                    </label>
-                </view>
+                男
             </view>
         </view>
         <view class="items phone">
             <view class="item-title">手机号：</view>
             <view class="item-value">
-                <input type="text" />
-                <text>获取手机号</text>
+                18383111402
             </view>
         </view>
         <view class="items address">
             <view class="item-title">地区：</view>
             <view class="item-value">
-                <input type="text" />
+                四川省成都市武侯区
             </view>
         </view>
         <view class="items priv">
             <view class="item-title">个人隐私：</view>
             <view class="item-value">
-                <view class="radio-group" bindchange="radioChange">
-                    <label class="radio" bindtap="changePriv" data-type="0" >
-                        <image src="../../static/image/personal/choosed-icon.png" wx:if="{{cansee=='0'}}"></image>
-                        <image src="../../static/image/personal/choose-icon.png" wx:else></image>
-                        <text>所有人可见</text>
-                    </label>
-                    <label class="radio" bindtap="changePriv" data-type="1" >
-                        <image src="../../static/image/personal/choosed-icon.png"  wx:if="{{cansee=='1'}}"></image>
-                        <image src="../../static/image/personal/choose-icon.png" wx:else></image>
-                        <text>不可见</text>
-                    </label>
-                </view>
+               所有人可见
             </view>
         </view>
         <view class="items company">
             <view class="item-title">公司：</view>
             <view class="item-value">
-                <input type="text" />
+                成都市知音文化传媒有限公司
             </view>
         </view>
         <view class="items industry">
             <view class="item-title">行业：</view>
             <view class="item-value" bindtap="showDialog">
-                <input type="text" disabled value="{{industry}}" />    
-                <image src="../../static/image/personal/triangle.png"></image>            
+                广告/传媒/文化/体育           
             </view>
         </view>
         <view class="items company">
             <view class="item-title">提供资源：</view>
             <view class="item-value">
-                <textarea fixed="true" hidden="{{isShowDialog}}" />
+                广告资源，节目主持，地方文化,广告资源，节目主持，地方文化广告资源，节目主持，地方文化广告资源，节目主持，地方文化
             </view>
         </view>
         <view class="items company">
             <view class="item-title">需要资源：</view>
             <view class="item-value">
-                <textarea fixed="true" hidden="{{isShowDialog}}" />
+                IT,互联网，游戏，管理，金融
             </view>
         </view>
     </view>
-    
-    <!-- 保存按钮 -->
-    <view class="btn-box">
-        <view class="save-btn {{canSave?'on':''}}">保存</view>
-    </view>
 </view>
-<!-- 行业选择弹窗 -->
-<view class="industry-dialog-box" catchtouchmove="true" wx:if="{{isShowDialog}}">
-    <view class="industry-dialog">
-        <view class="list" wx:for="{{industryList}}" wx:key="{{index}}" bindtap="chooseIndustry" data-index="{{index}}">
-            {{item}}
-        </view>
-    </view>
-</view>
+
+  
