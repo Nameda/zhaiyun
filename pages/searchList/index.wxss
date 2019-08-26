@@ -1,0 +1,53 @@
+/* 搜索结果页 */
+page{
+  background: #f1f1f1;
+}
+.highlight{
+    color: #FF0000;
+}
+/* 列表样式 */
+.list-box{
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30rpx;
+    margin-top: 20rpx;
+}
+.list-box .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16rpx;
+  height: 146rpx;
+  border-top: 1rpx solid #C5C5C5;
+}
+.list-box .list .info-box{
+  display: flex;
+  align-items: center;
+}
+.list-box .list .info-box .pic{
+  width:90rpx;
+  height:90rpx;
+  border-radius:45rpx;
+  margin-right: 25rpx;
+  flex-shrink: 0;
+}
+.list-box .list .info-box .right-info .info{
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 13rpx;
+  display: flex;
+
+}
+.list-box .list .info-box .right-info .resources{
+  padding: 0;
+}
+.list-box .list .info-box .right-info .name{
+  font-size: 20rpx;
+}
+.list-box .list .detail-arrow .arrow-icon{
+  width: 20rpx;
+  height: 20rpx;
+}

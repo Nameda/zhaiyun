@@ -37,7 +37,8 @@ Page({
         industry:'汽车',
         resources:'拥有资源：汽车，机油，汽车美容，玻璃...... '
       },
-    ]
+    ],
+    hasMore: true
   },
   //事件处理函数
   bindViewTap: function() {

@@ -1,0 +1,33 @@
+<!-- 搜索结果列表 -->
+
+<view class="container">
+    <view class="list-box">
+        <view class="list" wx:for="{{lists}}" wx:key="{{item.id}}">
+          <view class="info-box">
+            <image src="{{item.pic}}" class="pic"></image>
+            <view class="right-info">
+              <view class="name info">
+                  <view wx:for="{{item.name}}" wx:for-item="val" wx:for-index="i" wx:key="{{i}}" class="{{val == searchWords ? 'highlight' : '' }}">
+                        {{val}}
+                  </view>
+                </view>
+              <view class="industry info">
+                  <view>行业：</view>
+                  <view wx:for="{{item.industry}}" wx:for-item="val" wx:for-index="i" wx:key="{{i}}" class="{{val == searchWords ? 'highlight' : '' }}">
+                        {{val}}
+                  </view>
+                </view>
+              <view class="resources info">
+                  <view>拥有资源：</view>
+                  <view wx:for="{{item.resources}}" wx:for-item="val" wx:for-index="i" wx:key="{{i}}" class="{{val == searchWords ? 'highlight' : '' }}">
+                        {{val}}
+                  </view>
+              </view>
+            </view>
+          </view>
+          <view class="detail-arrow">
+            <image class="arrow-icon" src="../../static/image/home/arrow-icon.png"></image>
+          </view>
+        </view>
+    </view>
+</view>

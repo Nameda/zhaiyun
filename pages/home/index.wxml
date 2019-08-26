@@ -50,5 +50,6 @@
         </view>
       </view>
     </view>
+    <loading visible="{{hasMore}}"></loading>
   </view>
 </view>
