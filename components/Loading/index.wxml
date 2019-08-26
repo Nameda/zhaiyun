@@ -1,3 +1,6 @@
 <view class="loadmore {{visible && 'visible'}}">
+    <view class="loading-text" >
+        {{visible?'加载中···':'没有更多啦~'}}
+    </view>
     <view class="my-loading" wx:if="{{visible}}"></view>
 </view>

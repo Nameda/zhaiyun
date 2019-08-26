@@ -120,9 +120,6 @@ page{
   height: 146rpx;
   border-bottom: 1rpx solid #C5C5C5;
 }
-.list-box .list:last-of-type{
-  border:0;
-}
 .list-box .list .info-box{
   display: flex;
   align-items: center;
