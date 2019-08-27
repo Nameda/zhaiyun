@@ -5,7 +5,7 @@
     </view>
     <!-- 会员等级 -->
     <view class="member-type-wraper">
-        <view class="member-type type1">
+        <view class="member-type type1 {{memberType==1?'onType1':''}}" bindtap="changeType" data-type="1" data-money="599">
             <view class="member-type-header">
                 <view class="header-left">
                     <image src="../../static/image/member/member-ordinary.png"></image>
@@ -22,7 +22,7 @@
                 <view class="tip"><view class="ord">4：</view><view class="tip-text">通过窄云会申请连锁品牌孵化推动全国市场覆盖</view></view>
             </view>
         </view>
-        <view class="member-type type2">
+        <view class="member-type type2 {{memberType==2?'onType2':''}}" bindtap="changeType" data-type="2" data-money="1599">
             <view class="member-type-header">
                 <view class="header-left">
                     <image src="../../static/image/member/member-gold.png"></image>
@@ -47,8 +47,8 @@
             <text>微信支付</text>
         </view>
         <view class="pay-box">
-            <view class="money-box">应付金额：<text>599</text>元</view>
-            <view class="pay-btn">确认支付</view>
+            <view class="money-box">应付金额：<text>{{money}}</text>元</view>
+            <view class="pay-btn {{canPay?'black-btn':'gray-btn'}}">确认支付</view>
         </view>
     </view>
     <!-- 协议 帮助反馈 -->

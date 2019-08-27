@@ -21,16 +21,23 @@ page{
     width: 690rpx;
     height: 240rpx;
     border-radius: 10rpx;
+    background: #fff;
+
 }
 .member-type-wraper .type1{
-    background: #FBE9DD;
     border:2rpx solid #DB854E;
     margin-bottom: 35rpx;
+}
+.member-type-wraper .onType1{
+    background: #FBE9DD;
     box-shadow:0rpx 7rpx 8rpx 2rpx rgba(255,99,0,0.18);
 }
 .member-type-wraper .type2{
-    background: #fff;
     border:2rpx solid #FFD32F;
+}
+.member-type-wraper .onType2{
+    background: #FBE5C5;
+    box-shadow:0rpx 7rpx 8rpx 2rpx rgba(255,201,0,0.18);
 }
 .member-type-wraper .member-type .member-type-header{
     display: flex;
@@ -110,9 +117,14 @@ page{
     line-height: 68rpx;
     border-radius: 10rpx;
     text-align: center;
-    background: #FF0014;
     color: #fff;
     font-size: 32rpx;
+}
+.wechat-wraper .pay-box .gray-btn{
+    background: #999;
+}
+.wechat-wraper .pay-box .black-btn{
+    background: #000;
 }
 /* 协议 帮助反馈 */
 .bot-tips-wraper{
