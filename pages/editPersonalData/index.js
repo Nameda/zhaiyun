@@ -2,6 +2,7 @@ Page({
     data:{
         sex:1, //性别
         cansee:0, //个人隐私
+        region: ['', '', ''],
         industryList:[
             '互联网/IT/电子/通信', 
             '广告/传媒/文化/体育',
@@ -47,5 +48,11 @@ Page({
             industry:this.data.industryList[index],
             isShowDialog: false
         })
-    }
+    },
+    // 选择地址
+    bindRegionChange: function (e) {
+        this.setData({
+          region: e.detail.value
+        })
+      }
 })

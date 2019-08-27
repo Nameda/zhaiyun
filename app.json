@@ -1,13 +1,13 @@
 {
   "pages":[
     "pages/home/index",
+    "pages/editPersonalData/index",
     "pages/joinMember/index",
     "pages/searchList/index",
     "pages/personalData/index",
     "pages/my/index",
     "pages/withdrawRecord/index",
     "pages/withdraw/index",    
-    "pages/editPersonalData/index",
     "pages/search/index"
   ],
   "window":{
