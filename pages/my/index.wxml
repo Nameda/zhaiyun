@@ -30,8 +30,10 @@
     </view>
     <view class="btns-box">
       <navigator url="/pages/joinMember/index" class="btn">开通会员</navigator>
+      <navigator url="/pages/sharePage/index" class="btn">分享赚佣金</navigator>
+
       <!-- <view class="btn">开通会员</view> -->
-      <view class="btn">分享赚佣金</view>
+      <!-- <view class="btn">分享赚佣金</view> -->
     </view>
   </view>
   <!-- 我的收藏 -->

@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/home/index",
+    "pages/sharePage/index",
     "pages/editPersonalData/index",
     "pages/joinMember/index",
     "pages/searchList/index",

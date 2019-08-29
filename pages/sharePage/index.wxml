@@ -1,0 +1,7 @@
+<!-- 分享页面 -->
+<view class="container">
+    <view class="share-page-img">
+        <image src="../../static/image/personal/share-page.jpg"></image>
+    </view>
+    <view class="share-btn">保存海报后分享</view>
+</view>

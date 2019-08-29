@@ -1,0 +1,27 @@
+/* 分享页面 */
+page{
+  background: #f1f1f1;
+}
+
+.share-page-img{
+    width: 483rpx;
+    height: 810rpx;
+    margin:0 auto;
+    margin-top: 61rpx;
+    margin-bottom: 73rpx;
+    box-shadow:0rpx 9rpx 13rpx 3rpx rgba(0, 0, 0, 0.16);
+}
+.share-page-img image{
+    width: 100%;
+    height: 100%;
+}
+.share-btn{
+    width:482rpx;
+    height:80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    background:rgba(0,0,0,1);
+    border-radius:10rpx;
+    font-size: 30rpx;
+    color: #fff;
+}
