@@ -43,7 +43,7 @@
         <image src="../../static/image/my/black_arrow.png"></image>
     </view>
     <view class="collect-items">
-      <view class="collect-item" wx:for="123" wx:key="{{index}}">
+      <view class="collect-item" wx:for="12" wx:key="{{index}}">
         <view class="item-pic"><image src="../../static/image/home/pic.png"></image></view>
         <view class="item-info">
           <view class="name">魏程阳</view>
