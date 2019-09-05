@@ -78,17 +78,17 @@
         <view class="items company">
             <view class="item-title">提供资源：</view>
             <view class="item-value">
-                <textarea fixed="true" hidden="{{isShowDialog}}" />
+                <textarea hidden="{{isShowDialog}}" />
             </view>
         </view>
         <view class="items company">
             <view class="item-title">需要资源：</view>
             <view class="item-value">
-                <textarea fixed="true" hidden="{{isShowDialog}}" />
+                <textarea hidden="{{isShowDialog}}" value="司法所发生"/>
             </view>
         </view>
     </view>
-    
+
     <!-- 保存按钮 -->
     <view class="btn-box">
         <view class="save-btn {{canSave?'on':''}}">保存</view>
