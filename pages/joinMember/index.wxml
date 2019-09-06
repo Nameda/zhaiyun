@@ -21,6 +21,10 @@
                 <view class="tip"><view class="ord">3：</view><view class="tip-text">通过窄云会整合本地资源推动自有业务的发展</view></view>
                 <view class="tip"><view class="ord">4：</view><view class="tip-text">通过窄云会申请连锁品牌孵化推动全国市场覆盖</view></view>
             </view>
+            <view class="checkbox">
+                <image src="../../static/image/member/check-icon.png" wx:if="{{memberType==1}}"></image>
+                <image src="../../static/image/member/check-no-icon.png" wx:else></image>
+            </view>
         </view>
         <view class="member-type type2 {{memberType==2?'onType2':''}}" bindtap="changeType" data-type="2" data-money="1599">
             <view class="member-type-header">
@@ -37,6 +41,10 @@
                 <view class="tip"><view class="ord">2：</view><view class="tip-text">通过窄云会获取品牌宣传及资本对接的机会</view></view>
                 <view class="tip"><view class="ord">3：</view><view class="tip-text">享受连锁加盟免费咨询及诊断服务绕开加盟骗局</view></view>
                 <view class="tip"><view class="ord">4：</view><view class="tip-text">参与本地会员多品牌联动的区域性营销活动，降低营销成本，提高项目利润</view></view>
+            </view>
+            <view class="checkbox">
+                <image src="../../static/image/member/check-icon.png" wx:if="{{memberType==2}}"></image>
+                <image src="../../static/image/member/check-no-icon.png" wx:else></image>
             </view>
         </view>
     </view>
